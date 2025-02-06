@@ -17,8 +17,8 @@ import { HomeComponent } from './modules/home/home.component'
 
 @NgModule({
   declarations: [
+    HomeComponent,
     AppComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +30,7 @@ import { HomeComponent } from './modules/home/home.component'
     CardModule,
     InputTextModule,
     ButtonModule,
-    ToastModule
+    ToastModule,
 
   ],
   providers: [],
